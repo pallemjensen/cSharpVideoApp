@@ -15,37 +15,29 @@ namespace Video_application
                 switch (menuSelection)
                 {
 
-                    case 1:
-                        Console.WriteLine("You chose 1 : List Videos.");
+                    case 1:                        
                         ListVideos();
                         break;
 
-                    case 2:
-                        Console.WriteLine("You chose 2 : Add video.");
+                    case 2:                       
                         AddVideo();
                         break;
 
-                    case 3:
-                        Console.WriteLine("You chose 3 : Delete video.");
+                    case 3:                       
                         DeleteVideo();
                         break;
 
                     case 4:
-                        Console.WriteLine("You chose 4 : Edit Video.");
                         EditVideo();
                         break;
 
-                    case 5:
-                        Console.WriteLine("You chose 5 : Search function activated.");
+                    case 5:                        
                         Search();
                         break;
 
-                    case 6:
-                        Console.WriteLine("You chose 6: Exit application.");
+                    case 6:                        
                         ExitApplication();
                         break;
-
-                        
 
                     default:
                         break;
@@ -60,32 +52,32 @@ namespace Video_application
 
         public void DeleteVideo()
         {
-
+            Console.WriteLine("You chose 3 : Delete video.");
         }
 
         public void AddVideo()
         {
-
+            Console.WriteLine("You chose 2 : Add video.");
         }
 
         public void EditVideo()
         {
-
+            Console.WriteLine("You chose 4 : Edit Video.");
         }
 
         public void ExitApplication()
         {
-
+            Console.WriteLine("You chose 6: Exit application.");
         }
 
         public void ListVideos()
         {
-
+            Console.WriteLine("You chose 1 : List Videos.");
         }
 
         public void Search()
         {
-
+            Console.WriteLine("You chose 5 : Search function activated.");
         }
 
     }
