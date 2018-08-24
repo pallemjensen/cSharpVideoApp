@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Video_application
 {
@@ -17,7 +15,12 @@ namespace Video_application
             get; set;
         }
 
-        public Genre Genre
+        public String Genre
+        {
+            get; set;
+        }
+
+        public int Duration
         {
             get; set;
         }

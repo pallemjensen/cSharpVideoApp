@@ -4,17 +4,12 @@ namespace Video_application
 {
     class Program
     {
-        
-        static void Main(string[] args)
+        static void Main()
         {
-            Printer printer = new Printer();
-            int x = printer.OptionMenu();
+            var crud = new Gui();                   
+            crud.ChooseMenuItem(crud.OptionMenu());
 
-            CRUD crud = new CRUD();
-            crud.ChooseMenuItem(x);
             Console.ReadLine();
         }
-
-
     }
 }
